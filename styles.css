@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+  }
+  
+  #game-board {
+    display: grid;
+    grid-template-columns: repeat(28, 30px);
+    grid-template-rows: repeat(31, 30px);
+    gap: 1px;
+  }
+  
+  .pacman, .wall, .dot, .ghost {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .pacman {
+    background-color: yellow;
+  }
+  
+  .wall {
+    background-color: blue;
+  }
+  
+  .dot {
+    background-color: white;
+  }
+  
+  .ghost {
+    background-color: red;
+  }
+  
